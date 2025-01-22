@@ -1,0 +1,3 @@
+This example demonstrates a common but subtle bug in Ruby: directly modifying instance variables using `instance_variable_set`.  While functional, this approach violates good object-oriented programming principles and can lead to maintainability issues.
+
+The provided `bug.rb` showcases the issue.  The solution in `bugSolution.rb` illustrates using methods to encapsulate data access and modification for better code structure and maintainability.
